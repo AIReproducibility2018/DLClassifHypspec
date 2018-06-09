@@ -21,3 +21,11 @@ the raw_results directory. Additionally, ksc_SdA.py was run with
 pretraining_epochs set to both 3300 and 300, the former because that is the
 value in the paper and the latter because a commit to the repository changed
 it to 300. The results from both runs are included in the directory.
+
+Also note that each script was executed using the following, to facilitate running on hardware:
+
+CPATH="${CPATH}:$HOME/programs/cuda-8.0_cudnn5.1/include" LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:$HOME/programs/cuda-8.0_cudnn5.1/lib64/" <rest of script execution command here>
+
+e.g
+
+CPATH="${CPATH}:$HOME/programs/cuda-8.0_cudnn5.1/include" LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:$HOME/programs/cuda-8.0_cudnn5.1/lib64/" python2 ksc_joint_SdA.py

@@ -1,0 +1,18 @@
+OS: Ubuntu Linux 16.04.3 LTS
+Kernel: Linux 4.4.0-109-generic SMP x86_64
+CPU: Intel(R) Core(TM) i7-5930K CPU @ 3.50GHz
+GPU: GeForce GTX TITAN X
+Mem/Swap: 43GiB/63GiB
+
+Packages (see also https://github.com/hantek/deeplearn_hsi):
+* python-2.7.12
+* numpy-1.14.0
+* scipy-1.0.0
+* scikit-learn-0.19.1
+* Pillow-5.0.0
+* pylab-???
+* Theano-1.0.1 (1.0.1+40.g757b4d5)
+* libopenblas-dev/xenial 0.2.18-1ubuntu1 amd64 [this might be misinterpreted; aptitude is weird]
+* g++ (Ubuntu 5.4.0-6ubuntu1~16.04.5) 5.4.0 20160609
+* libcudnn.so.5.1.10
+* cuda-8.0 [?]
